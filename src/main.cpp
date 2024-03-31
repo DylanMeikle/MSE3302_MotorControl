@@ -1,6 +1,7 @@
 #include <Arduino.h>
+
 #include <ESP32Servo.h>
-#include <PID_v1.h> //Use Matlab to tune PID values for motor if used
+
 //#include <AccelStepper.h> //Copilot is telling me to add this for stepper
 #include <Adafruit_NeoPixel.h> //For LED control
 
@@ -122,4 +123,6 @@ void ARDUINO_ISR_ATTR timerISR() {
     }
   }
 }
+
+
 
